@@ -4,6 +4,7 @@ import UserHome from './pages/UserHome'
 import Register from './pages/Register'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
+import Picks from './pages/Picks'
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route exact path="/" component={HomePage}></Route>
         <Route exact path="/register" component={Register}></Route>
         <Route exact path="/userHome" component={UserHome}></Route>
+        <Route exact path="/picks" component={Picks}></Route>
         <Route path="*" component={NotFound}></Route>
       </Switch>
     </Router>

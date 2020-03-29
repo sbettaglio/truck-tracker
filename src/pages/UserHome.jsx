@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const UserHome = () => {
   return (
@@ -8,12 +9,20 @@ const UserHome = () => {
       </div>
       <main>
         <ul>
-          <li>Today's Picks</li>
-          <li>Today's Drops</li>
-          <li>Late Trucks</li>
-          <li>Carrier Profiles</li>
+          <li>
+            <Link to="/picks">Today's Picks</Link>
+          </li>
+          <li>
+            <Link>Today's Drops</Link>
+          </li>
+          <li>
+            <Link>Late Trucks</Link>
+          </li>
+          <li>
+            <Link>Carrier Profiles</Link>
+          </li>
         </ul>
-        <button>Logout</button>
+        <button>Sign Out</button>
       </main>
     </>
   )
