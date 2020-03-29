@@ -7,12 +7,10 @@ const HomePage = () => {
         <h1>Truck Tracker</h1>
         <form>
           <label>Username</label>
-          <br></br>
           <input type="text"></input>
-          <br></br>
           <label>Password</label>
-          <br></br>
           <input type="password"></input>
+          <button type="submit">Login</button>
         </form>
       </main>
     </>
