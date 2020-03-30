@@ -6,9 +6,8 @@ const Picks = () => {
       <div>
         <h1>Today's Picks</h1>
       </div>
-      <main>
+      <main className="loads-main">
         <section>
-          <h4>Load ID</h4>
           <ul className="load-list">
             <li>
               <Link to="/loadtracker">

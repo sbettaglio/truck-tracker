@@ -89,6 +89,12 @@ h4 {
   text-align: center;
 }
 
+.loads-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .load-list {
   padding-left: 0;
 }
