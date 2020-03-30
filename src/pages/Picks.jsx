@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Picks = () => {
   return (
     <>
@@ -10,46 +10,36 @@ const Picks = () => {
         <section>
           <h4>Load ID</h4>
           <ul>
-            <li>123</li>
-            <li>123</li>
-            <li>123</li>
-            <li>123</li>
-          </ul>
-        </section>
-        <section>
-          <h4>P/U</h4>
-          <ul>
-            <li>Date Time</li>
-            <li>Date Time</li>
-            <li>Date Time</li>
-            <li>Date Time</li>
-          </ul>
-        </section>
-        <section>
-          <h4>P/U City</h4>
-          <ul>
-            <li>St Pete, FL</li>
-            <li>St Pete, FL</li>
-            <li>St Pete, FL</li>
-            <li>St Pete, FL</li>
-          </ul>
-        </section>
-        <section>
-          <h4>D/O</h4>
-          <ul>
-            <li>Date Time</li>
-            <li>Date Time</li>
-            <li>Date Time</li>
-            <li>Date Time</li>
-          </ul>
-        </section>
-        <section>
-          <h4>D/O City</h4>
-          <ul>
-            <li>Miami, FL</li>
-            <li>Miami, FL</li>
-            <li>Miami, FL</li>
-            <li>Miami, FL</li>
+            <li>
+              <Link to="/loadtracker">
+                <span>Load Id </span>
+                <span>P/U Date </span>
+                <span>P/U City </span>
+                <span>D/O Date </span>
+                <span>D/O City </span>
+                <span>Carrier</span>
+              </Link>
+            </li>
+            <li>
+              <Link>
+                <span>Load Id </span>
+                <span>P/U Date </span>
+                <span>P/U City </span>
+                <span>D/O Date </span>
+                <span>D/O City </span>
+                <span>Carrier</span>
+              </Link>
+            </li>
+            <li>
+              <Link>
+                <span>Load Id </span>
+                <span>P/U Date </span>
+                <span>P/U City </span>
+                <span>D/O Date </span>
+                <span>D/O City </span>
+                <span>Carrier</span>
+              </Link>
+            </li>
           </ul>
         </section>
       </main>
