@@ -22,6 +22,9 @@ const UserHome = () => {
             <Link to="/available">Available Loads</Link>
           </li>
           <li>
+            <Link to="/create">Create New Load</Link>
+          </li>
+          <li>
             <Link to="/carriers">Carrier Profiles</Link>
           </li>
           <li>

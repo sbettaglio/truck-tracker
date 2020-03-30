@@ -8,6 +8,7 @@ import Picks from './pages/Picks'
 import LateTrucks from './pages/LateTrucks'
 import CarrierProfiles from './pages/CarrierProfiles'
 import NewCarrier from './NewCarrier'
+import NewLoad from './pages/NewLoad'
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
         <Route exact path="/late" component={LateTrucks}></Route>
         <Route exact path="/carriers" component={CarrierProfiles}></Route>
         <Route exact path="/newCarrier" component={NewCarrier}></Route>
+        <Route exact path="/create" component={NewLoad}></Route>
         <Route path="*" component={NotFound}></Route>
       </Switch>
     </Router>
