@@ -3,7 +3,7 @@ import React from 'react'
 const HomePage = () => {
   return (
     <>
-      <main>
+      <main className="login">
         <h1>Truck Tracker</h1>
         <form>
           <label>Username</label>

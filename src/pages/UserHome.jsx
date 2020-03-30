@@ -7,7 +7,7 @@ const UserHome = () => {
       <div>
         <h1>User Home Page</h1>
       </div>
-      <main>
+      <main className="user-home">
         <ul>
           <li>
             <Link to="/picks">Today's Picks</Link>
@@ -27,11 +27,13 @@ const UserHome = () => {
           <li>
             <Link to="/carriers">Carrier Profiles</Link>
           </li>
-          <li>
+          <li className="mobile-bottom">
             <Link to="/newCarrier">New Carrier</Link>
           </li>
         </ul>
-        <button>Sign Out</button>
+        <form>
+          <button>Sign Out</button>
+        </form>
       </main>
     </>
   )
