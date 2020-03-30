@@ -13,13 +13,19 @@ const UserHome = () => {
             <Link to="/picks">Today's Picks</Link>
           </li>
           <li>
-            <Link>Today's Drops</Link>
+            <Link to="/drops">Today's Drops</Link>
           </li>
           <li>
-            <Link>Late Trucks</Link>
+            <Link to="/late">Late Trucks</Link>
           </li>
           <li>
-            <Link>Carrier Profiles</Link>
+            <Link to="/available">Available Loads</Link>
+          </li>
+          <li>
+            <Link to="/carriers">Carrier Profiles</Link>
+          </li>
+          <li>
+            <Link to="/newCarrier">New Carrier</Link>
           </li>
         </ul>
         <button>Sign Out</button>

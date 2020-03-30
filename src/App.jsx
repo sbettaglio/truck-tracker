@@ -5,6 +5,9 @@ import Register from './pages/Register'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
 import Picks from './pages/Picks'
+import LateTrucks from './pages/LateTrucks'
+import CarrierProfiles from './pages/CarrierProfiles'
+import NewCarrier from './NewCarrier'
 
 const App = () => {
   return (
@@ -29,6 +32,9 @@ const App = () => {
         <Route exact path="/register" component={Register}></Route>
         <Route exact path="/userHome" component={UserHome}></Route>
         <Route exact path="/picks" component={Picks}></Route>
+        <Route exact path="/late" component={LateTrucks}></Route>
+        <Route exact path="/carriers" component={CarrierProfiles}></Route>
+        <Route exact path="/newCarrier" component={NewCarrier}></Route>
         <Route path="*" component={NotFound}></Route>
       </Switch>
     </Router>
